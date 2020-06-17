@@ -12,7 +12,7 @@ class NewsFeed extends Component{
     }
 
     componentDidMount(){
-        fetch('http://newsapi.org/v2/top-headlines?country=in&apiKey=b138b4421d654edaba6e378d6451fcca')
+        fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=b138b4421d654edaba6e378d6451fcca')
         .then(response=> response.json())
         .then((data)=>{
             this.setState({feed:data.articles})
