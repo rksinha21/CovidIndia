@@ -15,7 +15,7 @@ function App() {
       <Stats/>
       <DatasTable/>
       <Graphs/>
-      <NewsContainer/>
+//       <NewsContainer/>
       <Footer/>
     </div>
   );
